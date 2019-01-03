@@ -17,3 +17,7 @@ hefy
     计算机领域最底层（算法、数据结构、设计模式）
     技术框架核心：概念模式（mental model）
    
+切换ecms分支时，报错...
+Error:Module 'std' production: java.lang.ClassCastException: org.jetbrains.jps.builders.java.dependencyView.TypeRepr$PrimitiveType cannot be cast to org.jetbrains.jps.builders.java.dependencyView.TypeRepr$ClassType
+怎么解决？（15：05）
+    
