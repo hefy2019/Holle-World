@@ -21,3 +21,11 @@ hefy
 Error:Module 'std' production: java.lang.ClassCastException: org.jetbrains.jps.builders.java.dependencyView.TypeRepr$PrimitiveType cannot be cast to org.jetbrains.jps.builders.java.dependencyView.TypeRepr$ClassType
 怎么解决？（15：05）
     
+2019/1/7 
+hefy
+遇到一个难题: NoSuchMethodError  
+错误可能的原因：
+1.有这个类，该类真的没有这个方法
+2.有这个类，而且有好几个，他们之间发生了冲突
+接触的方法：（debug）
+找到报错行的类全限定名称，删掉多余的jar包版本
