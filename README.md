@@ -29,3 +29,11 @@ hefy
 2.有这个类，而且有好几个，他们之间发生了冲突
 接触的方法：（debug）
 找到报错行的类全限定名称，删掉多余的jar包版本
+
+2019/1/8   
+hefy
+org.apache.jasper.compiler.TldLocationsCache tldScanJar
+程序编译过慢，耗时很长
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+译文：信息:至少一个JAR还扫描tld中不含tld。启用此日志记录器的调试日志记录，以获取已扫描但未在其中找到tld的jar的完整列表。在扫描期间跳过不需要的jar可以提高启动时间和JSP编译时间。
+
