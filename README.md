@@ -37,3 +37,7 @@ org.apache.jasper.compiler.TldLocationsCache tldScanJar
 信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 译文：信息:至少一个JAR还扫描tld中不含tld。启用此日志记录器的调试日志记录，以获取已扫描但未在其中找到tld的jar的完整列表。在扫描期间跳过不需要的jar可以提高启动时间和JSP编译时间。
 
+2019/7/8
+hefy
+时隔 6个月，现在想想当时的自己，一个词形容：年轻！
+努力，加油！
